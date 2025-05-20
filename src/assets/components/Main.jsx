@@ -2,7 +2,9 @@ export default function Main() {
   return (
     <main id="page-main">
       <section className="content-section">
-        <div className="container">Content goes here</div>
+        <div className="container">
+          <h2>Content goes here</h2>
+        </div>
       </section>
       <section className="shop-section">
         <div className="container">
