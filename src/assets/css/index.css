@@ -89,10 +89,15 @@ ul {
   display: flex;
   flex-direction: column;
   color: white;
+  height: 100%;
 }
 
 #page-footer .footer-link {
   background-image: url("../img/footer-bg.jpg");
+  flex-grow: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
 }
 
 #page-footer .footer-link .col-1-2 {
@@ -104,6 +109,25 @@ ul {
 }
 
 #page-footer .footer-social {
-  height: 30px;
-  background-color: red;
+  height: 100px;
+  background-color: rgb(46, 46, 46);
+}
+
+#page-footer .footer-social .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#page-footer .footer-social .follow-us {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  background-color: transparent;
+  border: 2px solid blue;
+  color: white;
+  padding: 0.5rem 1rem;
 }
