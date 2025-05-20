@@ -115,7 +115,21 @@ export default function Footer() {
           </div>
         </div>
       </section>
-      <section className="footer-social"></section>
+      <section className="footer-social">
+        <div className="container">
+          <div className="sign-up-button">
+            <button className="button">sign up now</button>
+          </div>
+          <div className="follow-us">
+            <p>follow us</p>
+            <img src="\img\footer-facebook.png" alt="" />
+            <img src="\img\footer-facebook.png" alt="" />
+            <img src="\img\footer-facebook.png" alt="" />
+            <img src="\img\footer-facebook.png" alt="" />
+            <img src="\img\footer-facebook.png" alt="" />
+          </div>
+        </div>
+      </section>
     </footer>
   );
 }
