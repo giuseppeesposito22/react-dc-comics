@@ -1,7 +1,8 @@
 export default function Main() {
   return (
     <main>
-      <h1>Main</h1>
+      <section className="content-section"></section>
+      <section className="shop-section"></section>
     </main>
   );
 }
