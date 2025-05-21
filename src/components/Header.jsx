@@ -6,34 +6,36 @@ export default function Header() {
 
         <ul>
           <li>
-            link <a href="#"></a>
+            caracters<a href="#"></a>
+          </li>
+
+          <li className="active">
+            comics <a href="#"></a>
+          </li>
+
+          <li>
+            movies <a href="#"></a>
           </li>
           <li>
-            link <a href="#"></a>
+            tv <a href="#"></a>
           </li>
           <li>
-            link <a href="#"></a>
+            games <a href="#"></a>
           </li>
           <li>
-            link <a href="#"></a>
+            collectibles <a href="#"></a>
           </li>
           <li>
-            link <a href="#"></a>
+            videos <a href="#"></a>
           </li>
           <li>
-            link <a href="#"></a>
+            fans <a href="#"></a>
           </li>
           <li>
-            link <a href="#"></a>
+            news <a href="#"></a>
           </li>
           <li>
-            link <a href="#"></a>
-          </li>
-          <li>
-            link <a href="#"></a>
-          </li>
-          <li>
-            link <a href="#"></a>
+            shop <a href="#"></a>
           </li>
         </ul>
       </div>
