@@ -54,7 +54,7 @@ ul {
   color: white;
   font-size: 2rem;
   padding: 2rem;
-  height: 100px;
+  min-height: 100px;
 }
 
 #page-main .shop-section {
@@ -62,7 +62,7 @@ ul {
   color: white;
   font-size: 2rem;
   padding: 2rem;
-  height: 100px;
+  min-height: 100px;
   padding: 2rem;
   display: flex;
 }
@@ -83,21 +83,24 @@ ul {
   height: 70px;
 }
 
+.alert {
+  border: 1px solid rgb(124, 63, 63);
+  text-align: center;
+}
+
 /* Footer */
 
 #page-footer {
   display: flex;
   flex-direction: column;
   color: white;
-  height: 100%;
+  min-height: 100%;
 }
 
 #page-footer .footer-link {
   background-image: url("../img/footer-bg.jpg");
-  flex-grow: 1;
   background-repeat: no-repeat;
   background-size: cover;
-  flex: 1;
 }
 
 #page-footer .footer-link .col-1-2 {

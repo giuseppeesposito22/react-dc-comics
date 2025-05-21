@@ -1,8 +1,11 @@
+import Alert from "./alert";
+
 export default function Main() {
   return (
     <main id="page-main">
       <section className="content-section">
         <div className="container">
+          <Alert />
           <h2>Content goes here</h2>
         </div>
       </section>
