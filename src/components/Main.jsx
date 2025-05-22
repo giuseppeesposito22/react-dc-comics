@@ -1,12 +1,19 @@
-import Alert from "./alert";
+import Alert from "./Alert";
+import ComicsCard from "./ComicsCard";
+import comics from "../data/comics";
 
 export default function Main() {
+  const comicsCard = comics.map((comic) => (
+    <ComicsCard title={comic.title} img={comic.thumb} key={comic.id} />
+  ));
+
   return (
     <main id="page-main">
       <section className="content-section">
+        <div className="jumbotron"></div>
         <div className="container">
           <Alert />
-          <h2>Content goes here</h2>
+          <div className="row">{comicsCard}</div>
         </div>
       </section>
       <section className="shop-section">
