@@ -7,7 +7,7 @@ export default function Alert({ text, textColor, bgColor }) {
         backgroundColor: bgColor || "rgb(124, 63, 63)",
       }}
     >
-      <p>{text || "Si è verificato un errore"}</p>
+      <p>{text || <></>}</p>
     </div>
   );
 }
